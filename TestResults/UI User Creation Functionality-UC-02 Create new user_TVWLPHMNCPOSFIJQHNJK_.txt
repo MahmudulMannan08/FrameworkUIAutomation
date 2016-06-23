@@ -1,0 +1,124 @@
+    -----------------------------------------------------------
+    START OF SCENARIO: UC-02 Create new user
+    -----------------------------------------------------------
+    1. Then I go to ITM Framework v3.3 page: http://itm-dev.dev.itmagnet.biz/blank/default.aspx?ReturnUrl=%2fblank%2f
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    2. And I entered 'john' in 'roundPanelLogin_itmLoginControl_txtUsername_I' field
+    -----------------------------------------------------------
+    3. And I entered 'itmagnet03' in 'roundPanelLogin_itmLoginControl_txtPassword_I' field
+    -----------------------------------------------------------
+    4. Then I pressed 'ENTER'
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    5. And I clicked on 'System Settings' link
+    -----------------------------------------------------------
+    6. And I clicked on 'Users' link
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    7. And I clicked on 'New' link
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    8. And I entered 'UXDOT' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_txtFirstName_I' field
+    -----------------------------------------------------------
+    9. And I entered 'NJPRB' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_txtLastName_I' field
+    -----------------------------------------------------------
+    10. And I entered 'JX' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_txtMiddleName_I' field
+    -----------------------------------------------------------
+    11. And I entered 'itmagnettest1UXDOTNJPRB@gmail.com' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_txtEmail_I' field
+    -----------------------------------------------------------
+    12. And I entered '04545353' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_txtPhone_I' field
+    -----------------------------------------------------------
+    13. And I entered '0493032891' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_txtMobile_I' field
+    -----------------------------------------------------------
+    .  Then I set checkbox 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_RoleAssociation1_cpbGroupDetailsControl_gvRoles_cell0_1_chkIsChecked_S_D' to *ON*
+    -----------------------------------------------------------
+    14. And I entered 'itmagnet03' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_LoginCredential1_cbpLoginCredential_aspxFormLayoutLoginCredentail_PasswordControl1_cbpPassword_aspxFormLayoutPasswordControl_txtPassword_I' field
+    -----------------------------------------------------------
+    15. And I entered 'itmagnet03' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_LoginCredential1_cbpLoginCredential_aspxFormLayoutLoginCredentail_PasswordControl1_cbpPassword_aspxFormLayoutPasswordControl_txtRetypePassword_I' field
+    -----------------------------------------------------------
+    16. And I entered 'UXDOT' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_LoginCredential1_cbpLoginCredential_aspxFormLayoutLoginCredentail_txtUserName_I' field
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    17. And I clicked on 'Save' link
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    18. And I entered 'UXDOT' in 'roundPanelLogin_itmLoginControl_txtUsername_I' field
+    -----------------------------------------------------------
+    19. And I entered 'itmagnet03' in 'roundPanelLogin_itmLoginControl_txtPassword_I' field
+    -----------------------------------------------------------
+    20. Then I pressed 'ENTER'
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    21. And I entered 'john' in 'roundPanelLogin_itmLoginControl_txtUsername_I' field
+    -----------------------------------------------------------
+    22. And I entered 'itmagnet03' in 'roundPanelLogin_itmLoginControl_txtPassword_I' field
+    -----------------------------------------------------------
+    23. Then I pressed 'ENTER'
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    24. And I clicked on 'System Settings' link
+    -----------------------------------------------------------
+    25. And I clicked on 'Users' link
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    26. And I clicked on 'System Settings' link
+    -----------------------------------------------------------
+    27. And I clicked on 'Audits' link
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    28. And I clicked on 'User Authentication Log' link
+    -----------------------------------------------------------
+    29. And I entered 'UXDOT' in 'ctl00_cphSiteMaster_aspxSplitter_ctl21_DXFREditorcol2_I' field
+    -----------------------------------------------------------
+    30. Then I pressed 'ENTER'
+    -----------------------------------------------------------
+    .  Then I set checkbox 'ctl00_cphSiteMaster_aspxSplitter_ctl21_DXSelBtn0_D' to *ON*
+    -----------------------------------------------------------
+    31. And I clicked on 'Delete' link
+    -----------------------------------------------------------
+    32. And I clicked on 'Yes' link
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    33. And I clicked on 'System Settings' link
+    -----------------------------------------------------------
+    34. And I clicked on 'Audits' link
+    -----------------------------------------------------------
+    35. And I clicked on 'User Session Log' link
+    -----------------------------------------------------------
+    36. And I entered 'UXDOT' in 'ctl00_cphSiteMaster_aspxSplitter_ctl21_DXFREditorcol2_I' field
+    -----------------------------------------------------------
+    37. Then I pressed 'ENTER'
+    -----------------------------------------------------------
+    .  Then I set checkbox 'ctl00_cphSiteMaster_aspxSplitter_ctl21_DXSelBtn0_D' to *ON*
+    -----------------------------------------------------------
+    38. And I clicked on 'Delete' link
+    -----------------------------------------------------------
+    39. And I clicked on 'Yes' link
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    40. And I clicked on 'System Settings' link
+    -----------------------------------------------------------
+    41. And I clicked on 'Users' link
+    -----------------------------------------------------------
+    42. And I entered 'UXDOT' in 'ctl00_cphSiteMaster_aspxSplitter_ctl21_DXFREditorcol2_I' field
+    -----------------------------------------------------------
+    43. Then I pressed 'ENTER'
+    -----------------------------------------------------------
+    .  Then I set checkbox 'ctl00_cphSiteMaster_aspxSplitter_ctl21_DXSelBtn0_D' to *ON*
+    -----------------------------------------------------------
+    44. And I clicked on 'Delete' link
+    -----------------------------------------------------------
+    45. And I clicked on 'Yes' link
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    END OF SCENARIO: UC-02 Create new user
+    -----------------------------------------------------------
+    STARTED AT: 6/23/2016 4:09:51 PM: COMPLETED AT: 6/23/2016 4:10:33 PM: EXECUTION TIME: 00:00:41.7106216
+    -----------------------------------------------------------

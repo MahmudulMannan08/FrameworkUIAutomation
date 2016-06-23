@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>SpecRun.SpecFlow</id>
+    <version>1.5.1</version>
+    <title>SpecRun for SpecFlow 2</title>
+    <authors>TechTalk</authors>
+    <owners>TechTalk</owners>
+    <licenseUrl>http://www.specflow.org/plus/eula/</licenseUrl>
+    <projectUrl>http://www.specflow.org/plus/runner</projectUrl>
+    <iconUrl>http://www.specflow.org/media/specflow_plus_runner_nuget_icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SpecRun - a smarter integration test runner for SpecFlow. Check the details on the website.</description>
+    <summary>SpecRun - a smarter integration test runner for SpecFlow. Check the details on the website.</summary>
+    <copyright>Copyright © 2011-2016 TechTalk</copyright>
+    <language>en-US</language>
+    <tags>specrun specflow bdd integration tests runner</tags>
+    <dependencies>
+      <dependency id="SpecRun.Runner" version="1.5.1" />
+      <dependency id="SpecFlow" version="2.1.0" />
+    </dependencies>
+  </metadata>
+</package>

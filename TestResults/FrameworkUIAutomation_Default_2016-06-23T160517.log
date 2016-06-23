@@ -1,0 +1,85 @@
+﻿VS filter: testpath:TestAssembly:FrameworkUIAutomation/Feature:UI+User+Creation+Functionality/Scenario:UC-02+Create+new+user%2c+john
+Discovering target: Default
+Discovering tests from assembly: D:\Development\itm-tfs-01\Framework\Test Automation\v3.3\FrameworkUIAutomation\FrameworkUIAutomation\bin\Debug\FrameworkUIAutomation.dll
+Appdomain Disposed
+Test Suite Dump
+#0: FrameworkUIAutomation/Default - 
+#1: Default - 
+#2: FrameworkUIAutomation - 
+#5: UI User Creation Functionality - 
+#6: UC-02 Create new user, john - TestAssembly:FrameworkUIAutomation/Feature:UI+User+Creation+Functionality/Scenario:UC-02+Create+new+user%2c+john
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread
+Thread#0:Scheduler: using testitem #6 for thread
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for FrameworkUIAutomation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\mahmud.DHAKA\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.1\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given I am on itmagnet framework landing page
+Thread#0:T:done: LoginToFramework.GivenIAmOnItmagnetFrameworkLandingPage() (3.2s)
+Thread#0:B:Then I provide my john and itmagnet03 and false and press login button
+Thread#0:T:done: LoginToFramework.ThenIProvideMyAndAndAndPressLoginButton("john", "itmagnet03", False) (2.1s)
+Thread#0:B:And Verify I am on framework homepage and Prototypes is visible when my logged in state true
+Thread#0:T:done: LoginToFramework.ThenVerifyIAmOnFrameworkHomepageAndIsVisibleWhenMyLoggedInState("Prototypes", True) (0.1s)
+Thread#0:B:Then I go to user list page
+Thread#0:T:done: CreateNewUser.ThenIGoToUserListPage() (1.2s)
+Thread#0:B:And I go to create new page
+Thread#0:T:done: CreateNewUser.ThenIGoToCreateNewPage() (1.6s)
+Thread#0:B:Then I create a new user
+Thread#0:T:done: CreateNewUser.ThenICreateANewUser() (9.6s)
+Thread#0:B:And I logout
+Thread#0:T:done: LoginToFramework.ThenILogout() (1.8s)
+Thread#0:B:Then I login with new user
+Thread#0:T:done: CreateNewUser.ThenILoginWithNewUser() (1.0s)
+Thread#0:B:And Verify I am on framework homepage and Prototypes is visible when my logged in state true
+Thread#0:T:done: LoginToFramework.ThenVerifyIAmOnFrameworkHomepageAndIsVisibleWhenMyLoggedInState("Prototypes", True) (0.1s)
+Thread#0:B:And I logout
+Thread#0:T:done: LoginToFramework.ThenILogout() (1.2s)
+Thread#0:B:Then I provide my john and itmagnet03 and false and press login button
+Thread#0:T:done: LoginToFramework.ThenIProvideMyAndAndAndPressLoginButton("john", "itmagnet03", False) (1.9s)
+Thread#0:B:And Verify I am on framework homepage and Prototypes is visible when my logged in state true
+Thread#0:T:done: LoginToFramework.ThenVerifyIAmOnFrameworkHomepageAndIsVisibleWhenMyLoggedInState("Prototypes", True) (0.1s)
+Thread#0:B:Then I go to user list page
+Thread#0:T:done: CreateNewUser.ThenIGoToUserListPage() (1.0s)
+Thread#0:B:Then I go to audit page
+Thread#0:T:done: CreateNewUser.ThenIGoToAuditPage() (0.5s)
+Thread#0:B:And I go to user authentication log page
+Thread#0:T:done: CreateNewUser.ThenIGoToUserAuthenticationLogPage() (0.9s)
+Thread#0:B:And I search new user
+Thread#0:T:done: CreateNewUser.ThenISearchNewUser() (3.3s)
+Thread#0:B:And I delete user log
+Thread#0:T:done: CreateNewUser.ThenIDeleteUserLog() (0.3s)
+Thread#0:B:Then I go to audit page
+Thread#0:T:done: CreateNewUser.ThenIGoToAuditPage() (0.2s)
+Thread#0:B:Then I go to user session log page
+Thread#0:T:done: CreateNewUser.ThenIGoToUserSessionLogPage() (0.7s)
+Thread#0:B:And I search new user
+Thread#0:T:done: CreateNewUser.ThenISearchNewUser() (3.3s)
+Thread#0:B:And I delete user log
+Thread#0:T:done: CreateNewUser.ThenIDeleteUserLog() (0.3s)
+Thread#0:B:Then I go to user list page
+Thread#0:T:done: CreateNewUser.ThenIGoToUserListPage() (0.3s)
+Thread#0:B:And I search new user
+Thread#0:T:done: CreateNewUser.ThenISearchNewUser() (3.3s)
+Thread#0:B:And I delete new user
+Thread#0:T:done: CreateNewUser.ThenIDeleteNewUser() (2.3s)
+Thread#0:B:And I logout
+Thread#0:T:done: LoginToFramework.ThenILogout() (1.2s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 45.9667714 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

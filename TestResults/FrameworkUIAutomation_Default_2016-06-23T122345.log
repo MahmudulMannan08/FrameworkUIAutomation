@@ -1,0 +1,43 @@
+﻿VS filter: testpath:TestAssembly:FrameworkUIAutomation/Feature:UI+LOGIN+FUNCTIONALITY/Scenario:UC-01+Login+to+It+Magnet+Framework%2c+john
+Discovering target: Default
+Discovering tests from assembly: D:\Development\itm-tfs-01\Framework\Test Automation\v3.3\FrameworkUIAutomation\FrameworkUIAutomation\bin\Debug\FrameworkUIAutomation.dll
+Appdomain Disposed
+Test Suite Dump
+#0: FrameworkUIAutomation/Default - 
+#1: Default - 
+#2: FrameworkUIAutomation - 
+#7: UI LOGIN FUNCTIONALITY - 
+#8: UC-01 Login to It Magnet Framework, john - TestAssembly:FrameworkUIAutomation/Feature:UI+LOGIN+FUNCTIONALITY/Scenario:UC-01+Login+to+It+Magnet+Framework%2c+john
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #8 from normal test queue 
+Thread#0:Scheduler: considering testitem #8 for thread
+Thread#0:Scheduler: using testitem #8 for thread
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for FrameworkUIAutomation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\mahmud.DHAKA\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.1\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #8/0 is started on thread #0
+Thread#0:B:Given I am on itmagnet framework landing page
+Thread#0:T:done: LoginToFramework.GivenIAmOnItmagnetFrameworkLandingPage() (3.6s)
+Thread#0:B:Then I provide my john and itmagnet03 and false and press login button
+Thread#0:T:done: LoginToFramework.ThenIProvideMyAndAndAndPressLoginButton("john", "itmagnet03", False) (2.1s)
+Thread#0:B:And Verify I am on framework homepage and Prototypes is visible when my logged in state true
+Thread#0:T:done: LoginToFramework.ThenVerifyIAmOnFrameworkHomepageAndIsVisibleWhenMyLoggedInState("Prototypes", True) (0.2s)
+Thread#0:B:And I logout
+Thread#0:T:done: LoginToFramework.ThenILogout() (1.2s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 11.3936979 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

@@ -1,0 +1,11 @@
+        -----------------------------------------------------------
+        START OF SCENARIO: UC-02 Create new user
+        -----------------------------------------------------------
+        1. Then I go to ITM Framework v3.3 page: http://itm-dev.dev.itmagnet.biz/blank/home.aspx
+        -----------------------------------------------------------
+        -----------------------------------------------------------
+        END OF SCENARIO: UC-02 Create new user
+        -----------------------------------------------------------
+        STARTED AT: 6/23/2016 3:52:33 PM: COMPLETED AT: 6/23/2016 3:52:56 PM: EXECUTION TIME: 00:00:22.6867753
+        -----------------------------------------------------------
+        ERROR OCCURED: Exception has been thrown by the target of an invocation. OF TYPE: TargetInvocationException

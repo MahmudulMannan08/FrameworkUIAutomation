@@ -1,0 +1,10 @@
+        -----------------------------------------------------------
+        START OF SCENARIO: UC-02 Create new user
+        -----------------------------------------------------------
+        END OF SCENARIO: UC-02 Create new user
+        -----------------------------------------------------------
+        STARTED AT: 6/23/2016 3:23:23 PM: COMPLETED AT: 6/23/2016 3:23:27 PM: EXECUTION TIME: 00:00:04.1724862
+        -----------------------------------------------------------
+        ERROR OCCURED: chrome not reachable
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (100) OF TYPE: InvalidOperationException

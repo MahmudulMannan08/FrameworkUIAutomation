@@ -1,0 +1,11 @@
+        -----------------------------------------------------------
+        START OF SCENARIO: UC-02 Create new user
+        -----------------------------------------------------------
+        1. Then I go to ITM Framework v3.3 page: http://itm-dev.dev.itmagnet.biz/blank/home.aspx
+        -----------------------------------------------------------
+        -----------------------------------------------------------
+        END OF SCENARIO: UC-02 Create new user
+        -----------------------------------------------------------
+        STARTED AT: 6/23/2016 3:41:04 PM: COMPLETED AT: 6/23/2016 3:42:05 PM: EXECUTION TIME: 00:01:01.7397544
+        -----------------------------------------------------------
+        ERROR OCCURED: The HTTP request to the remote WebDriver server for URL http://localhost:32980/session/cdd7517fbc4dc624a12a504b5a0d1ad4/element timed out after 60 seconds. OF TYPE: WebDriverException

@@ -1,0 +1,18 @@
+        -----------------------------------------------------------
+        START OF SCENARIO: UC-02 Create new user
+        -----------------------------------------------------------
+        1. Then I go to ITM Framework v3.3 page: http://itm-dev.dev.itmagnet.biz/blank/default.aspx?ReturnUrl=%2fblank%2f
+        -----------------------------------------------------------
+        -----------------------------------------------------------
+        2. And I entered 'john' in 'roundPanelLogin_itmLoginControl_txtUsername_I' field
+        -----------------------------------------------------------
+        3. And I entered 'itmagnet03' in 'roundPanelLogin_itmLoginControl_txtPassword_I' field
+        -----------------------------------------------------------
+        4. Then I pressed 'ENTER'
+        -----------------------------------------------------------
+        -----------------------------------------------------------
+        END OF SCENARIO: UC-02 Create new user
+        -----------------------------------------------------------
+        STARTED AT: 6/23/2016 1:55:01 PM: COMPLETED AT: 6/23/2016 1:55:03 PM: EXECUTION TIME: 00:00:02.7265537
+        -----------------------------------------------------------
+        ERROR OCCURED: Object reference not set to an instance of an object. OF TYPE: NullReferenceException

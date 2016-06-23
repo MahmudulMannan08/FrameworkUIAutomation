@@ -1,0 +1,53 @@
+    -----------------------------------------------------------
+    START OF SCENARIO: UC-02 Create new user
+    -----------------------------------------------------------
+    1. Then I go to ITM Framework v3.3 page: http://itm-dev.dev.itmagnet.biz/blank/default.aspx?ReturnUrl=%2fblank%2f
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    2. And I entered 'john' in 'roundPanelLogin_itmLoginControl_txtUsername_I' field
+    -----------------------------------------------------------
+    3. And I entered 'itmagnet03' in 'roundPanelLogin_itmLoginControl_txtPassword_I' field
+    -----------------------------------------------------------
+    4. Then I pressed 'ENTER'
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    5. And I clicked on 'System Settings' link
+    -----------------------------------------------------------
+    6. And I clicked on 'Users' link
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    7. And I clicked on 'New' link
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    8. And I entered 'CSAGL' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_txtFirstName_I' field
+    -----------------------------------------------------------
+    9. And I entered 'GIFGM' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_txtLastName_I' field
+    -----------------------------------------------------------
+    10. And I entered 'VU' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_txtMiddleName_I' field
+    -----------------------------------------------------------
+    11. And I entered 'itmagnettest1CSAGLGIFGM@gmail.com' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_txtEmail_I' field
+    -----------------------------------------------------------
+    12. And I entered '0442709434' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_txtPhone_I' field
+    -----------------------------------------------------------
+    13. And I entered '0461003877' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_txtMobile_I' field
+    -----------------------------------------------------------
+    .  Then I set checkbox 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_RoleAssociation1_cpbGroupDetailsControl_gvRoles_cell0_1_chkIsChecked_S_D' to *ON*
+    -----------------------------------------------------------
+    14. And I entered 'itmagnet03' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_LoginCredential1_cbpLoginCredential_aspxFormLayoutLoginCredentail_PasswordControl1_cbpPassword_aspxFormLayoutPasswordControl_txtPassword_I' field
+    -----------------------------------------------------------
+    15. And I entered 'itmagnet03' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_LoginCredential1_cbpLoginCredential_aspxFormLayoutLoginCredentail_PasswordControl1_cbpPassword_aspxFormLayoutPasswordControl_txtRetypePassword_I' field
+    -----------------------------------------------------------
+    16. And I entered 'CSAGL' in 'ctl00_cphSiteMaster_aspxSplitter_callbackPanel_aspxFormLayout_LoginCredential1_cbpLoginCredential_aspxFormLayoutLoginCredentail_txtUserName_I' field
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    17. And I clicked on 'Save' link
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    END OF SCENARIO: UC-02 Create new user
+    -----------------------------------------------------------
+    STARTED AT: 6/23/2016 1:54:35 PM: COMPLETED AT: 6/23/2016 1:54:55 PM: EXECUTION TIME: 00:00:20.3328097
+    -----------------------------------------------------------
+    ERROR OCCURED: Object reference not set to an instance of an object. OF TYPE: NullReferenceException

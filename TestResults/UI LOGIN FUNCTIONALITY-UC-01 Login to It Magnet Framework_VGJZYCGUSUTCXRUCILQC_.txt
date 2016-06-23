@@ -1,0 +1,18 @@
+    -----------------------------------------------------------
+    START OF SCENARIO: UC-01 Login to It Magnet Framework
+    -----------------------------------------------------------
+    1. Then I go to ITM Framework v3.3 page: http://itm-dev.dev.itmagnet.biz/blank/default.aspx?ReturnUrl=%2fblank%2f
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    2. And I entered 'john' in 'roundPanelLogin_itmLoginControl_txtUsername_I' field
+    -----------------------------------------------------------
+    3. And I entered 'itmagnet03' in 'roundPanelLogin_itmLoginControl_txtPassword_I' field
+    -----------------------------------------------------------
+    4. Then I pressed 'ENTER'
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    END OF SCENARIO: UC-01 Login to It Magnet Framework
+    -----------------------------------------------------------
+    STARTED AT: 6/23/2016 12:23:57 PM: COMPLETED AT: 6/23/2016 12:24:04 PM: EXECUTION TIME: 00:00:07.1803752
+    -----------------------------------------------------------
