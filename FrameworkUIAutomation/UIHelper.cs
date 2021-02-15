@@ -214,8 +214,8 @@ namespace FrameworkUIAutomation
             attachment = new Attachment(ScenarioContext.Current["report_file_name"].ToString());
             mail.Attachments.Add(attachment);
             SmtpServer.Port = 587;
-            //SmtpServer.Credentials = new NetworkCredential("dev.testing@trustpilot.com", "Trustp1l0t2014!");
-            SmtpServer.Credentials = new NetworkCredential("itmagnettest1@gmail.com", "itmagnet03");
+            //SmtpServer.Credentials = new NetworkCredential("Email here", "Password here");
+            SmtpServer.Credentials = new NetworkCredential("Email here", "Password here");
             SmtpServer.EnableSsl = true;
             SmtpServer.Send(mail);
         }
